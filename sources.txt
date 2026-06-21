@@ -1,6 +1,7 @@
 # URL delle liste sorgente, uno per riga.
 # Puoi aggiungerne altri in futuro: ogni modifica a questo file avvia
 # automaticamente GitHub Actions e rigenera lista.txt.
+# Il sistema confronta tutti i domini e mantiene una sola voce per sito.
 
 https://pastebin.com/raw/KgQ4jTy6
 https://www.epgitalia.tv/listaveezie
