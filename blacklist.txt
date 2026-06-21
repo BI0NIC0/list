@@ -1,3 +1,5 @@
 # Domini da escludere dalla lista finale, uno per riga.
 # Inserire solo il dominio, senza protocollo, percorso o www.
 # Le righe vuote e quelle che iniziano con # vengono ignorate.
+
+1337x.to
