@@ -5,7 +5,9 @@ on:
   push:
     paths:
       - "sources.txt"
+      - "blacklist.txt"
       - "merge_lists.py"
+      - "filter_blacklist.py"
       - ".github/workflows/aggiorna-lista.yml"
   schedule:
     - cron: "17 3 * * *"
@@ -32,6 +34,9 @@ jobs:
 
       - name: Genera la lista senza duplicati
         run: python merge_lists.py
+
+      - name: Applica la blacklist
+        run: python filter_blacklist.py
 
       - name: Salva il risultato
         run: |
