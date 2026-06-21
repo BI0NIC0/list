@@ -1,0 +1,6 @@
+# Inserisci qui gli URL completi delle liste sorgente, uno per riga.
+# Le righe vuote e quelle che iniziano con # vengono ignorate.
+#
+# Esempio:
+# https://esempio.it/lista-uno.txt
+# https://esempio.it/lista-due.txt
