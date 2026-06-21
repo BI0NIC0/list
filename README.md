@@ -161,6 +161,24 @@ La logica è:
 
 Questa soglia riduce il rischio di eliminare domini a causa di un singolo timeout, di una manutenzione breve o di un problema momentaneo del server.
 
+### Persistenza dello storico
+
+Prima del controllo il workflow crea una copia temporanea di `site-health-state.json`.
+
+Dopo il controllo:
+
+- i risultati appena ottenuti hanno sempre precedenza;
+- gli stati con almeno un errore consecutivo vengono conservati anche se il dominio scompare temporaneamente dalle sorgenti;
+- le esclusioni automatiche restano memorizzate durante l’assenza;
+- gli stati senza errori pendenti non vengono mantenuti inutilmente;
+- quando il dominio ricompare, il conteggio riparte dal valore conservato;
+- un risultato `OK` o `ATTENZIONE` azzera il conteggio;
+- un nuovo `ERRORE` continua invece il conteggio precedente.
+
+In questo modo un dominio non può rientrare nella lista soltanto perché è scomparso temporaneamente dalle sorgenti e poi è ricomparso.
+
+La copia temporanea viene eliminata prima del commit e non viene pubblicata nel repository.
+
 `filter_blacklist.py` applica alla lista finale, nell'ordine:
 
 1. la blacklist manuale;
@@ -223,12 +241,15 @@ Durante ogni esecuzione il sistema:
 4. scarica e unisce le liste remote;
 5. normalizza e deduplica gli URL;
 6. usa la lista precedente se una sorgente è temporaneamente irraggiungibile;
-7. esegue il controllo tecnico sui domini non già esclusi manualmente;
-8. aggiorna `site-health.txt`, `site-health-state.json` e `auto-excluded.txt`;
-9. applica blacklist manuale ed esclusioni automatiche;
-10. ordina e pubblica `lista.txt`;
-11. aggiorna `last-run.txt`;
-12. crea un commit automatico soltanto se uno dei file generati è cambiato.
+7. salva temporaneamente lo stato tecnico precedente;
+8. esegue il controllo tecnico sui domini non già esclusi manualmente;
+9. unisce i nuovi risultati con gli errori pendenti dei domini temporaneamente assenti;
+10. ricostruisce `site-health-state.json` e `auto-excluded.txt`;
+11. applica blacklist manuale ed esclusioni automatiche;
+12. ordina e pubblica `lista.txt`;
+13. aggiorna `last-run.txt` e `site-health.txt`;
+14. elimina la copia temporanea dello stato;
+15. crea un commit automatico soltanto se uno dei file generati è cambiato.
 
 ## Quando viene eseguito
 
