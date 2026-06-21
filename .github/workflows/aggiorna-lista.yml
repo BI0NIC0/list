@@ -7,6 +7,7 @@ on:
       - "sources.txt"
       - "blacklist.txt"
       - "merge_lists.py"
+      - "check_sites.py"
       - "filter_blacklist.py"
       - ".github/workflows/aggiorna-lista.yml"
   schedule:
@@ -35,14 +36,17 @@ jobs:
       - name: Genera la lista senza duplicati
         run: python merge_lists.py
 
-      - name: Applica la blacklist
+      - name: Controlla tecnicamente i siti
+        run: python check_sites.py
+
+      - name: Applica blacklist ed esclusioni automatiche
         run: python filter_blacklist.py
 
       - name: Salva il risultato
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add lista.txt last-run.txt
+          git add lista.txt last-run.txt site-health.txt site-health-state.json auto-excluded.txt
 
           if git diff --cached --quiet; then
             echo "Nessuna modifica da salvare."
