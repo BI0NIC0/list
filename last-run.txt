@@ -1,7 +1,10 @@
-Aggiornamento UTC: 2026-06-21T13:40:54.702908+00:00
+Aggiornamento UTC: 2026-06-21T14:51:48.236666+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
-Siti unici: 27
+Domini configurati in blacklist: 1
+Voci escluse dalla blacklist: 1
+Domini esclusi dalla blacklist: 1337x.to
+Siti unici: 26
 Ordinamento: alfabetico per dominio
 Protezione con lista precedente: no
