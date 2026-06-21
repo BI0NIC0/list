@@ -36,8 +36,49 @@ jobs:
       - name: Genera la lista senza duplicati
         run: python merge_lists.py
 
+      - name: Conserva lo stato tecnico precedente
+        run: |
+          if [ -f site-health-state.json ]; then
+            cp site-health-state.json site-health-state.previous.json
+          else
+            printf '{}\n' > site-health-state.previous.json
+          fi
+
       - name: Controlla tecnicamente i siti
         run: python check_sites.py
+
+      - name: Mantiene gli errori dei domini temporaneamente assenti
+        run: |
+          preserved=$(jq -n \
+            --slurpfile old site-health-state.previous.json \
+            --slurpfile new site-health-state.json \
+            '[($old[0] | to_entries[]) as $item | select(($new[0][$item.key] == null) and (($item.value.consecutive_errors // 0) > 0))] | length')
+
+          jq -s '
+            .[0] as $old |
+            .[1] as $new |
+            reduce ($old | to_entries[]) as $item
+              ($new;
+                if has($item.key) or (($item.value.consecutive_errors // 0) <= 0)
+                then .
+                else . + {($item.key): ($item.value + {present_in_candidates: false})}
+                end
+              )
+          ' site-health-state.previous.json site-health-state.json > site-health-state.merged.json
+
+          mv site-health-state.merged.json site-health-state.json
+
+          {
+            echo "# Generato automaticamente da check_sites.py."
+            echo "# Un dominio entra dopo 2 errori tecnici consecutivi."
+            echo "# Lo stato resta memorizzato durante assenze temporanee dalle sorgenti."
+            echo
+            jq -r 'to_entries[] | select((.value.consecutive_errors // 0) >= 2) | .key' site-health-state.json | sort
+          } > auto-excluded.txt
+
+          echo "Stati tecnici preservati fuori dalle sorgenti: $preserved" >> last-run.txt
+          echo "Stati tecnici preservati fuori dalle sorgenti: $preserved" >> site-health.txt
+          rm -f site-health-state.previous.json
 
       - name: Applica blacklist ed esclusioni automatiche
         run: python filter_blacklist.py
