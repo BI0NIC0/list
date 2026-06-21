@@ -127,8 +127,16 @@ def main() -> int:
         if not unique:
             raise RuntimeError("Nessun URL valido trovato nelle sorgenti")
 
+        sorted_urls = [
+            url
+            for _, url in sorted(
+                unique.items(),
+                key=lambda item: item[0].casefold(),
+            )
+        ]
+
         OUTPUT_FILE.write_text(
-            "\n".join(unique.values()) + "\n",
+            "\n".join(sorted_urls) + "\n",
             encoding="utf-8",
             newline="\n",
         )
@@ -137,13 +145,14 @@ def main() -> int:
                 f"Aggiornamento UTC: {datetime.now(timezone.utc).isoformat()}\n"
                 f"Sorgenti elaborate: {len(sources)}\n"
                 f"Siti unici: {len(unique)}\n"
+                "Ordinamento: alfabetico per dominio\n"
             ),
             encoding="utf-8",
             newline="\n",
         )
 
         print(f"Sorgenti elaborate: {len(sources)}")
-        print(f"Generati {len(unique)} siti unici")
+        print(f"Generati {len(unique)} siti unici in ordine alfabetico")
         return 0
 
     except Exception as error:
