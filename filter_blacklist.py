@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 BLACKLIST_FILE = Path("blacklist.txt")
+AUTO_EXCLUDED_FILE = Path("auto-excluded.txt")
 OUTPUT_FILE = Path("lista.txt")
 LAST_RUN_FILE = Path("last-run.txt")
 
@@ -27,13 +28,15 @@ def canonical_domain(value: str) -> str | None:
         return None
 
 
-def read_blacklist() -> set[str]:
-    if not BLACKLIST_FILE.exists():
-        raise RuntimeError("File blacklist.txt non trovato")
+def read_domains(path: Path, required: bool = False) -> set[str]:
+    if not path.exists():
+        if required:
+            raise RuntimeError(f"File {path.name} non trovato")
+        return set()
 
     domains: set[str] = set()
     for line_number, raw_line in enumerate(
-        BLACKLIST_FILE.read_text(encoding="utf-8").splitlines(),
+        path.read_text(encoding="utf-8").splitlines(),
         start=1,
     ):
         line = raw_line.split("#", 1)[0].strip()
@@ -43,7 +46,7 @@ def read_blacklist() -> set[str]:
         domain = canonical_domain(line)
         if not domain:
             raise RuntimeError(
-                f"Dominio non valido in blacklist.txt alla riga {line_number}: {line}"
+                f"Dominio non valido in {path.name} alla riga {line_number}: {line}"
             )
 
         domains.add(domain)
@@ -51,7 +54,10 @@ def read_blacklist() -> set[str]:
     return domains
 
 
-def matching_blocked_domain(hostname: str, blocked_domains: set[str]) -> str | None:
+def matching_blocked_domain(
+    hostname: str,
+    blocked_domains: set[str],
+) -> str | None:
     canonical_host = hostname[4:] if hostname.startswith("www.") else hostname
 
     for blocked_domain in blocked_domains:
@@ -64,27 +70,31 @@ def matching_blocked_domain(hostname: str, blocked_domains: set[str]) -> str | N
 
 
 def update_last_run(
-    configured_domains: int,
-    removed_entries: int,
+    manual_configured: int,
+    automatic_configured: int,
+    manual_removed: int,
+    automatic_removed: int,
     final_entries: int,
-    matched_domains: set[str],
+    matched_manual: set[str],
+    matched_automatic: set[str],
 ) -> None:
     if not LAST_RUN_FILE.exists():
         return
 
-    original_lines = LAST_RUN_FILE.read_text(encoding="utf-8").splitlines()
+    prefixes = (
+        "Domini configurati in blacklist:",
+        "Domini configurati in auto-esclusione:",
+        "Voci escluse dalla blacklist:",
+        "Voci escluse automaticamente:",
+        "Domini esclusi dalla blacklist:",
+        "Domini esclusi automaticamente:",
+    )
     status_lines: list[str] = []
 
-    for line in original_lines:
+    for line in LAST_RUN_FILE.read_text(encoding="utf-8").splitlines():
         if line.startswith("Siti unici:"):
             status_lines.append(f"Siti unici: {final_entries}")
-        elif not line.startswith(
-            (
-                "Domini configurati in blacklist:",
-                "Voci escluse dalla blacklist:",
-                "Domini esclusi dalla blacklist:",
-            )
-        ):
+        elif not line.startswith(prefixes):
             status_lines.append(line)
 
     insert_at = next(
@@ -96,16 +106,23 @@ def update_last_run(
         len(status_lines),
     )
 
-    blacklist_status = [
-        f"Domini configurati in blacklist: {configured_domains}",
-        f"Voci escluse dalla blacklist: {removed_entries}",
+    filter_status = [
+        f"Domini configurati in blacklist: {manual_configured}",
+        f"Domini configurati in auto-esclusione: {automatic_configured}",
+        f"Voci escluse dalla blacklist: {manual_removed}",
+        f"Voci escluse automaticamente: {automatic_removed}",
     ]
-    if matched_domains:
-        blacklist_status.append(
-            "Domini esclusi dalla blacklist: " + ", ".join(sorted(matched_domains))
+    if matched_manual:
+        filter_status.append(
+            "Domini esclusi dalla blacklist: " + ", ".join(sorted(matched_manual))
+        )
+    if matched_automatic:
+        filter_status.append(
+            "Domini esclusi automaticamente: "
+            + ", ".join(sorted(matched_automatic))
         )
 
-    status_lines[insert_at:insert_at] = blacklist_status
+    status_lines[insert_at:insert_at] = filter_status
 
     LAST_RUN_FILE.write_text(
         "\n".join(status_lines) + "\n",
@@ -115,14 +132,17 @@ def update_last_run(
 
 
 def main() -> int:
-    blocked_domains = read_blacklist()
+    manual_domains = read_domains(BLACKLIST_FILE, required=True)
+    automatic_domains = read_domains(AUTO_EXCLUDED_FILE)
 
     if not OUTPUT_FILE.exists():
         raise RuntimeError("File lista.txt non trovato")
 
     kept_urls: list[str] = []
-    removed_entries = 0
-    matched_domains: set[str] = set()
+    manual_removed = 0
+    automatic_removed = 0
+    matched_manual: set[str] = set()
+    matched_automatic: set[str] = set()
 
     for raw_line in OUTPUT_FILE.read_text(encoding="utf-8").splitlines():
         url = raw_line.strip()
@@ -135,16 +155,22 @@ def main() -> int:
         except (TypeError, ValueError):
             hostname = ""
 
-        blocked_domain = matching_blocked_domain(hostname, blocked_domains)
-        if blocked_domain:
-            removed_entries += 1
-            matched_domains.add(blocked_domain)
+        manual_match = matching_blocked_domain(hostname, manual_domains)
+        if manual_match:
+            manual_removed += 1
+            matched_manual.add(manual_match)
+            continue
+
+        automatic_match = matching_blocked_domain(hostname, automatic_domains)
+        if automatic_match:
+            automatic_removed += 1
+            matched_automatic.add(automatic_match)
             continue
 
         kept_urls.append(url)
 
     if not kept_urls:
-        raise RuntimeError("La blacklist eliminerebbe tutte le voci da lista.txt")
+        raise RuntimeError("I filtri eliminerebbero tutte le voci da lista.txt")
 
     OUTPUT_FILE.write_text(
         "\n".join(kept_urls) + "\n",
@@ -153,14 +179,19 @@ def main() -> int:
     )
 
     update_last_run(
-        configured_domains=len(blocked_domains),
-        removed_entries=removed_entries,
+        manual_configured=len(manual_domains),
+        automatic_configured=len(automatic_domains),
+        manual_removed=manual_removed,
+        automatic_removed=automatic_removed,
         final_entries=len(kept_urls),
-        matched_domains=matched_domains,
+        matched_manual=matched_manual,
+        matched_automatic=matched_automatic,
     )
 
-    print(f"Domini configurati in blacklist: {len(blocked_domains)}", flush=True)
-    print(f"Voci escluse dalla blacklist: {removed_entries}", flush=True)
+    print(f"Domini in blacklist: {len(manual_domains)}", flush=True)
+    print(f"Domini auto-esclusi: {len(automatic_domains)}", flush=True)
+    print(f"Voci escluse manualmente: {manual_removed}", flush=True)
+    print(f"Voci escluse automaticamente: {automatic_removed}", flush=True)
     print(f"Voci finali: {len(kept_urls)}", flush=True)
     return 0
 
