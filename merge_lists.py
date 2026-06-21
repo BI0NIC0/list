@@ -15,6 +15,19 @@ LAST_RUN_FILE = Path("last-run.txt")
 URL_PATTERN = re.compile(r"https?://[^\s<>\"']+", re.IGNORECASE)
 DOWNLOAD_ATTEMPTS = 3
 DOWNLOAD_TIMEOUT_SECONDS = 30
+IGNORED_DOMAINS = {
+    "dub.sh",
+    "epgitalia.tv",
+    "googletagmanager.com",
+    "r.jina.ai",
+    "rentry.co",
+}
+METADATA_PREFIXES = (
+    "markdown content:",
+    "published time:",
+    "title:",
+    "url source:",
+)
 
 
 def read_sources() -> list[str]:
@@ -54,13 +67,14 @@ def download(url: str) -> str:
 
     for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
         try:
-            print(f"  Tentativo {attempt}/{DOWNLOAD_ATTEMPTS}")
+            print(f"  Tentativo {attempt}/{DOWNLOAD_ATTEMPTS}", flush=True)
             return download_once(url)
         except Exception as error:
             last_error = error
             print(
                 f"  Tentativo {attempt} fallito: {error}",
                 file=sys.stderr,
+                flush=True,
             )
             if attempt < DOWNLOAD_ATTEMPTS:
                 time.sleep(2 ** (attempt - 1))
@@ -74,6 +88,10 @@ def extract_urls(content: str):
     for raw_line in content.splitlines():
         line = html.unescape(raw_line).strip()
         if not line or line.startswith("#"):
+            continue
+
+        lowered = line.casefold()
+        if lowered.startswith(METADATA_PREFIXES):
             continue
 
         for match in URL_PATTERN.findall(line):
@@ -97,6 +115,9 @@ def normalize_url(value: str) -> tuple[str, str] | None:
         port = parsed.port
 
         canonical_host = hostname[4:] if hostname.startswith("www.") else hostname
+        if canonical_host in IGNORED_DOMAINS:
+            return None
+
         key = canonical_host if not port else f"{canonical_host}:{port}"
 
         display_host = hostname
@@ -139,14 +160,18 @@ def main() -> int:
         failed_sources: list[str] = []
 
         for source in sources:
-            print(f"Scaricamento: {source}")
+            print(f"Scaricamento: {source}", flush=True)
             try:
                 content = download(source)
                 add_content_to_unique(content, unique)
                 successful_sources += 1
             except Exception as error:
                 failed_sources.append(f"{source} — {error}")
-                print(f"Avviso: {source} ignorata temporaneamente: {error}", file=sys.stderr)
+                print(
+                    f"Avviso: {source} ignorata temporaneamente: {error}",
+                    file=sys.stderr,
+                    flush=True,
+                )
 
         fallback_used = False
         if failed_sources and OUTPUT_FILE.exists():
@@ -156,6 +181,7 @@ def main() -> int:
             print(
                 "Usata la lista precedente come protezione contro perdite temporanee.",
                 file=sys.stderr,
+                flush=True,
             )
 
         if not unique:
@@ -195,12 +221,15 @@ def main() -> int:
             newline="\n",
         )
 
-        print(f"Sorgenti riuscite: {successful_sources}/{len(sources)}")
-        print(f"Generati {len(unique)} siti unici in ordine alfabetico")
+        print(f"Sorgenti riuscite: {successful_sources}/{len(sources)}", flush=True)
+        print(
+            f"Generati {len(unique)} siti unici in ordine alfabetico",
+            flush=True,
+        )
         return 0
 
     except Exception as error:
-        print(f"Errore: {error}", file=sys.stderr)
+        print(f"Errore: {error}", file=sys.stderr, flush=True)
         return 1
 
 
