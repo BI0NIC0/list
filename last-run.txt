@@ -1,3 +1,7 @@
-Aggiornamento UTC: 2026-06-21T10:47:55.213257+00:00
-Sorgenti elaborate: 2
+Aggiornamento UTC: 2026-06-21T13:12:13.587356+00:00
+Sorgenti configurate: 2
+Sorgenti riuscite: 2
+Sorgenti non raggiungibili: 0
 Siti unici: 23
+Ordinamento: alfabetico per dominio
+Protezione con lista precedente: no
