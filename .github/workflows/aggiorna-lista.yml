@@ -2,6 +2,9 @@ name: Aggiorna lista unificata
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "sources.txt"
   schedule:
     - cron: "17 3 * * *"
 
