@@ -4,5 +4,6 @@
 # Il sistema confronta tutti i domini, mantiene una sola voce per sito
 # e ordina il risultato alfabeticamente per dominio.
 
-https://pastebin.com/raw/KgQ4jTy6
 https://www.epgitalia.tv/listaveezie
+https://pastebin.com/raw/KgQ4jTy6
+https://pastebin.com/raw/2H8u433W
