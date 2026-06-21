@@ -1,9 +1,7 @@
-Aggiornamento UTC: 2026-06-21T13:24:18.709609+00:00
-Sorgenti configurate: 3
-Sorgenti riuscite: 2
-Sorgenti non raggiungibili: 1
-Siti unici: 27
+Aggiornamento UTC: 2026-06-21T13:39:09.544407+00:00
+Sorgenti configurate: 4
+Sorgenti riuscite: 4
+Sorgenti non raggiungibili: 0
+Siti unici: 30
 Ordinamento: alfabetico per dominio
-Protezione con lista precedente: sì
-Errori temporanei:
-- https://www.epgitalia.tv/wp-content/uploads/lista_domini.txt — sorgente non raggiungibile dopo 3 tentativi: <urlopen error timed out>
+Protezione con lista precedente: no
