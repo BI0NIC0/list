@@ -1,31 +1,51 @@
 # Lista unificata automatica
 
-Questo repository genera ogni giorno una lista unica a partire da due o più liste remote, normalizzando gli URL ed eliminando i duplicati.
+Questo repository genera ogni giorno una lista unica a partire da una o più liste remote, normalizzando gli URL ed eliminando i duplicati.
 
-## Configurazione
-
-1. Apri `sources.txt`.
-2. Inserisci un URL sorgente per riga.
-3. Apri la scheda **Actions**.
-4. Seleziona **Aggiorna lista unificata**.
-5. Premi **Run workflow** per il primo aggiornamento.
-
-Il workflow viene poi eseguito automaticamente ogni giorno alle **03:17 UTC**.
-
-## Collegamento finale
-
-Dopo il primo aggiornamento, il file da usare è:
+## Link da aprire sul browser
 
 ```text
 https://raw.githubusercontent.com/BI0NIC0/list/main/lista.txt
 ```
 
-Il repository deve essere pubblico affinché applicazioni esterne possano leggere il collegamento Raw senza autenticazione.
+Il file contiene la lista finale aggiornata, con un solo indirizzo per ciascun sito.
 
-## File
+## Come aggiungere altre liste
 
-- `sources.txt`: indirizzi delle liste sorgente.
-- `merge_lists.py`: scarica, normalizza e unisce le liste.
-- `lista.txt`: risultato finale senza duplicati.
-- `last-run.txt`: data e ora dell'ultimo aggiornamento riuscito.
+1. Apri il file `sources.txt`.
+2. Seleziona **Edit this file**.
+3. Aggiungi il nuovo indirizzo su una nuova riga.
+4. Premi **Commit changes** per salvare.
+
+Esempio:
+
+```text
+https://pastebin.com/raw/KgQ4jTy6
+https://www.epgitalia.tv/listaveezie
+https://esempio.it/altra-lista.txt
+```
+
+Puoi aggiungere tutte le sorgenti necessarie, sempre una per riga. Le righe vuote e quelle che iniziano con `#` vengono ignorate.
+
+Quando `sources.txt` viene modificato, GitHub Actions avvia automaticamente l'aggiornamento, confronta tutte le sorgenti, elimina i siti duplicati e rigenera `lista.txt`.
+
+## Aggiornamento automatico
+
+Il workflow viene eseguito:
+
+- ogni volta che viene modificato `sources.txt`;
+- automaticamente ogni giorno alle **03:17 UTC**.
+
+Per avviarlo manualmente:
+
+1. Apri la scheda **Actions**.
+2. Seleziona **Aggiorna lista unificata**.
+3. Premi **Run workflow**.
+
+## File del repository
+
+- `sources.txt`: elenco delle liste sorgente, una per riga.
+- `merge_lists.py`: scarica, normalizza e unisce tutte le sorgenti.
+- `lista.txt`: lista finale senza siti duplicati.
+- `last-run.txt`: data, numero di sorgenti e numero di siti dell'ultimo aggiornamento.
 - `.github/workflows/aggiorna-lista.yml`: automazione giornaliera.
