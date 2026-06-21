@@ -1,4 +1,4 @@
-Aggiornamento UTC: 2026-06-21T15:06:29.660187+00:00
+Aggiornamento UTC: 2026-06-21T15:07:08.303033+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
@@ -10,3 +10,9 @@ Domini esclusi dalla blacklist: 1337x.to, cineblog001.garden, eurostreaming.ovh,
 Siti unici: 16
 Ordinamento: alfabetico per dominio
 Protezione con lista precedente: no
+Siti sottoposti a controllo tecnico: 16
+Siti saltati perché in blacklist manuale: 11
+Avvisi tecnici: 5
+Errori tecnici: 0
+Domini auto-esclusi: 0
+Rapporto tecnico: site-health.txt

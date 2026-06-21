@@ -1,0 +1,3 @@
+# Generato automaticamente da check_sites.py.
+# Un dominio entra dopo 2 errori tecnici consecutivi.
+# Viene rimosso automaticamente quando torna raggiungibile.
