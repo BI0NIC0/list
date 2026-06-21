@@ -31,12 +31,18 @@ Quando `sources.txt` viene modificato, GitHub Actions avvia automaticamente l'ag
 
 ## Aggiornamento automatico
 
+Ogni giorno il sistema riscarica da capo tutte le liste indicate in `sources.txt`. Se una sorgente aggiunge, rimuove o modifica un sito, il cambiamento viene riportato automaticamente nella nuova versione di `lista.txt`.
+
 Il workflow viene eseguito:
 
 - ogni volta che viene modificato `sources.txt`;
-- automaticamente ogni giorno alle **03:17 UTC**.
+- automaticamente ogni giorno alle **03:17 UTC**;
+- alle **05:17 in Italia durante l'ora legale**;
+- alle **04:17 in Italia durante l'ora solare**.
 
-Per avviarlo manualmente:
+Il link della lista finale non cambia: mostra sempre l'ultima versione generata.
+
+Per avviare manualmente un aggiornamento:
 
 1. Apri la scheda **Actions**.
 2. Seleziona **Aggiorna lista unificata**.
