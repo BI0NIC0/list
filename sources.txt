@@ -1,6 +1,6 @@
-# Inserisci qui gli URL completi delle liste sorgente, uno per riga.
-# Le righe vuote e quelle che iniziano con # vengono ignorate.
-#
-# Esempio:
-# https://esempio.it/lista-uno.txt
-# https://esempio.it/lista-due.txt
+# URL delle liste sorgente, uno per riga.
+# Puoi aggiungerne altri in futuro: ogni modifica a questo file avvia
+# automaticamente GitHub Actions e rigenera lista.txt.
+
+https://pastebin.com/raw/KgQ4jTy6
+https://www.epgitalia.tv/listaveezie
