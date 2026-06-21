@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - "sources.txt"
+      - "merge_lists.py"
+      - ".github/workflows/aggiorna-lista.yml"
   schedule:
     - cron: "17 3 * * *"
 
