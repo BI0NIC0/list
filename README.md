@@ -37,7 +37,7 @@ Il workflow viene eseguito:
 
 - ogni volta che viene modificato `sources.txt`;
 - ogni volta che viene modificato lo script di generazione;
-- automaticamente ogni giorno alle **03:17 UTC** (ore **05:17** in Italia durante l'ora legale e **04:17** durante l'ora solare).
+- automaticamente ogni giorno alle **03:17 UTC** (in Italia corrisponde alle **05:17** con l'ora legale e alle **04:17** con l'ora solare).
 
 Il link della lista finale non cambia: mostra sempre l'ultima versione generata.
 
