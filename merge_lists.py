@@ -3,9 +3,10 @@ from __future__ import annotations
 import html
 import re
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlsplit, urlunsplit
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
 
 SOURCES_FILE = Path("sources.txt")
@@ -30,12 +31,23 @@ def read_sources() -> list[str]:
     return sources
 
 
+def add_cache_buster(url: str) -> str:
+    parsed = urlsplit(url)
+    query = parse_qsl(parsed.query, keep_blank_values=True)
+    query.append(("_list_refresh", str(int(time.time()))))
+    return urlunsplit(
+        (parsed.scheme, parsed.netloc, parsed.path, urlencode(query), parsed.fragment)
+    )
+
+
 def download(url: str) -> str:
     request = Request(
-        url,
+        add_cache_buster(url),
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; GitHub-Actions-List-Merger/1.0)",
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36",
             "Accept": "text/plain,text/html;q=0.9,*/*;q=0.8",
+            "Cache-Control": "no-cache, no-store, max-age=0",
+            "Pragma": "no-cache",
         },
     )
 
