@@ -24,8 +24,8 @@ def read_sources() -> list[str]:
         if line and not line.startswith("#"):
             sources.append(line)
 
-    if len(sources) < 2:
-        raise RuntimeError("Inserisci almeno due URL sorgente validi in sources.txt")
+    if not sources:
+        raise RuntimeError("Inserisci almeno un URL sorgente valido in sources.txt")
 
     return sources
 
@@ -54,7 +54,13 @@ def extract_urls(content: str):
             yield match.rstrip(".,;:)]}\"")
 
 
-def normalize_url(value: str) -> str | None:
+def normalize_url(value: str) -> tuple[str, str] | None:
+    """Restituisce (chiave di confronto, URL da pubblicare).
+
+    La chiave considera uguali http/https, www/non-www, slash finale,
+    frammenti e percorsi dello stesso dominio. Viene mantenuto nella lista
+    finale il primo URL incontrato per ciascun dominio.
+    """
     try:
         parsed = urlsplit(value.strip())
         scheme = parsed.scheme.lower()
@@ -64,16 +70,20 @@ def normalize_url(value: str) -> str | None:
         hostname = parsed.hostname.lower().rstrip(".")
         port = parsed.port
 
-        if ":" in hostname and not hostname.startswith("["):
-            hostname = f"[{hostname}]"
+        canonical_host = hostname[4:] if hostname.startswith("www.") else hostname
+        key = canonical_host if not port else f"{canonical_host}:{port}"
+
+        display_host = hostname
+        if ":" in display_host and not display_host.startswith("["):
+            display_host = f"[{display_host}]"
 
         if port and not (
             (scheme == "http" and port == 80)
             or (scheme == "https" and port == 443)
         ):
-            netloc = f"{hostname}:{port}"
+            netloc = f"{display_host}:{port}"
         else:
-            netloc = hostname
+            netloc = display_host
 
         path = parsed.path
         if path == "/":
@@ -81,7 +91,8 @@ def normalize_url(value: str) -> str | None:
         elif path:
             path = path.rstrip("/")
 
-        return urlunsplit((scheme, netloc, path, parsed.query, ""))
+        normalized = urlunsplit((scheme, netloc, path, parsed.query, ""))
+        return key, normalized
     except (TypeError, ValueError):
         return None
 
@@ -89,32 +100,38 @@ def normalize_url(value: str) -> str | None:
 def main() -> int:
     try:
         sources = read_sources()
-        unique: dict[str, None] = {}
+        unique: dict[str, str] = {}
 
         for source in sources:
             print(f"Scaricamento: {source}")
             content = download(source)
 
             for candidate in extract_urls(content):
-                normalized = normalize_url(candidate)
-                if normalized:
-                    unique.setdefault(normalized, None)
+                result = normalize_url(candidate)
+                if result:
+                    key, normalized = result
+                    unique.setdefault(key, normalized)
 
         if not unique:
             raise RuntimeError("Nessun URL valido trovato nelle sorgenti")
 
         OUTPUT_FILE.write_text(
-            "\n".join(unique.keys()) + "\n",
+            "\n".join(unique.values()) + "\n",
             encoding="utf-8",
             newline="\n",
         )
         LAST_RUN_FILE.write_text(
-            datetime.now(timezone.utc).isoformat() + "\n",
+            (
+                f"Aggiornamento UTC: {datetime.now(timezone.utc).isoformat()}\n"
+                f"Sorgenti elaborate: {len(sources)}\n"
+                f"Siti unici: {len(unique)}\n"
+            ),
             encoding="utf-8",
             newline="\n",
         )
 
-        print(f"Generati {len(unique)} URL unici")
+        print(f"Sorgenti elaborate: {len(sources)}")
+        print(f"Generati {len(unique)} siti unici")
         return 0
 
     except Exception as error:
