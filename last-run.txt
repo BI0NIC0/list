@@ -1,4 +1,4 @@
-Aggiornamento UTC: 2026-06-22T09:23:04.310347+00:00
+Aggiornamento UTC: 2026-06-23T06:59:59.251151+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
@@ -7,13 +7,13 @@ Domini configurati in auto-esclusione: 0
 Voci escluse dalla blacklist: 11
 Voci escluse automaticamente: 0
 Domini esclusi dalla blacklist: 1337x.to, cineblog001.garden, eurostreaming.ovh, eurostreamings.forum, filmsenzalimite.one, guarda-serie.ovh, guardaserietv.study, i5hs.k9vo.com, il-geniodellostreaming.study, rargb.to, streamingita.homes
-Siti unici: 16
+Siti unici: 18
 Ordinamento: alfabetico per dominio
 Protezione con lista precedente: no
-Siti sottoposti a controllo tecnico: 16
+Siti sottoposti a controllo tecnico: 18
 Siti saltati perché in blacklist manuale: 11
-Avvisi tecnici: 5
-Errori tecnici: 1
+Avvisi tecnici: 8
+Errori tecnici: 0
 Domini auto-esclusi: 0
 Rapporto tecnico: site-health.txt
-Stati tecnici preservati fuori dalle sorgenti: 0
+Stati tecnici preservati fuori dalle sorgenti: 1

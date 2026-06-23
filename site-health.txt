@@ -1,18 +1,20 @@
-Controllo UTC: 2026-06-22T09:23:16.841720+00:00
-Siti controllati: 16
+Controllo UTC: 2026-06-23T07:00:01.139438+00:00
+Siti controllati: 18
 Siti saltati perché in blacklist manuale: 11
 OK: 10
-Attenzione: 5
-Errori: 1
+Attenzione: 8
+Errori: 0
 Domini auto-esclusi: 0
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://guardoserie.store — timeout oltre 12 secondi (errori consecutivi: 1)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.pics — reindirizza verso cb01uno.lol (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.makeup — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.xyz — protezione anti-bot (errori consecutivi: 0)
+- [ATTENZIONE] https://guardoserie.courses — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-Stati tecnici preservati fuori dalle sorgenti: 0
+- [ATTENZIONE] https://streamingcommunityz.us — reindirizza verso streamingcommunityz.tech (errori consecutivi: 0)
+Stati tecnici preservati fuori dalle sorgenti: 1
