@@ -1,7 +1,7 @@
-Controllo UTC: 2026-06-23T07:00:01.139438+00:00
-Siti controllati: 18
-Siti saltati perché in blacklist manuale: 11
-OK: 10
+Controllo UTC: 2026-06-24T06:57:42.659881+00:00
+Siti controllati: 19
+Siti saltati perché in blacklist manuale: 9
+OK: 11
 Attenzione: 8
 Errori: 0
 Domini auto-esclusi: 0
@@ -12,7 +12,7 @@ Anomalie rilevate:
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01uno.pics — reindirizza verso cb01uno.lol (errori consecutivi: 0)
-- [ATTENZIONE] https://eurostreamings.makeup — protezione anti-bot (errori consecutivi: 0)
+- [ATTENZIONE] https://eurostreamings.ink — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.xyz — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.courses — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
