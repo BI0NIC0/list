@@ -1,18 +1,19 @@
-Controllo UTC: 2026-06-30T07:05:26.878045+00:00
-Siti controllati: 18
-Siti saltati perché in blacklist manuale: 7
-OK: 11
-Attenzione: 7
+Controllo UTC: 2026-07-01T07:50:33.665916+00:00
+Siti controllati: 21
+Siti saltati perché in blacklist manuale: 8
+OK: 13
+Attenzione: 8
 Errori: 0
 Domini auto-esclusi: 0
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
+- [ATTENZIONE] https://altadefinizione.you — reindirizza verso altadefinizionegratis.website (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
-- [ATTENZIONE] https://casa-cinema.study — reindirizza verso casa-cinema.bond (errori consecutivi: 0)
-- [ATTENZIONE] https://eurostreamings.ink — protezione anti-bot (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.lol — reindirizza verso cb01uno.quest (errori consecutivi: 0)
+- [ATTENZIONE] https://eurostreamings.ink — reindirizza verso eurostreamings.qpon (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.xyz — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.courses — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
