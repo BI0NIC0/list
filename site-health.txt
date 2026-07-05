@@ -1,4 +1,4 @@
-Controllo UTC: 2026-07-04T06:30:19.577812+00:00
+Controllo UTC: 2026-07-05T06:51:54.008353+00:00
 Siti controllati: 23
 Siti saltati perché in blacklist manuale: 7
 OK: 11
