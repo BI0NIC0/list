@@ -1,4 +1,4 @@
-Aggiornamento UTC: 2026-07-11T05:49:37.591711+00:00
+Aggiornamento UTC: 2026-07-12T06:13:33.002987+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
