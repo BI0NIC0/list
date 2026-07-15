@@ -1,8 +1,8 @@
-Controllo UTC: 2026-07-14T05:41:05.899557+00:00
-Siti controllati: 21
+Controllo UTC: 2026-07-15T05:42:04.215921+00:00
+Siti controllati: 25
 Siti saltati perché in blacklist manuale: 8
-OK: 6
-Attenzione: 15
+OK: 12
+Attenzione: 13
 Errori: 0
 Domini auto-esclusi: 0
 Soglia auto-esclusione: 2 errori tecnici consecutivi
@@ -10,14 +10,12 @@ Nota: il risultato dipende dalla rete del runner GitHub e può differire da quel
 
 Anomalie rilevate:
 - [ATTENZIONE] https://altadefinizionegratis.website — reindirizza verso altadefinizionegratis.press (errori consecutivi: 0)
-- [ATTENZIONE] https://altadefinizionegratis.win — reindirizza verso altadefinizionegratis.press (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01uno.quest — reindirizza verso cb01uno.fun (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01uno.space — reindirizza verso cb01uno.fun (errori consecutivi: 0)
 - [ATTENZIONE] https://cineblog001.work — reindirizza verso cineblog001.pw (errori consecutivi: 0)
-- [ATTENZIONE] https://eurostreamings.monster — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://film-pertutti.icu — reindirizza verso film-pertutti.bar (errori consecutivi: 0)
+- [ATTENZIONE] https://eurostreamings.monster — reindirizza verso eurostreamings.skin (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.store — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.courses — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://il-geniodellostreaming.digital — reindirizza verso il-geniodellostreaming.yachts (errori consecutivi: 0)
