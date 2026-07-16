@@ -1,4 +1,4 @@
-Controllo UTC: 2026-07-15T05:42:04.215921+00:00
+Controllo UTC: 2026-07-16T05:50:14.059419+00:00
 Siti controllati: 25
 Siti saltati perché in blacklist manuale: 8
 OK: 12
@@ -12,14 +12,14 @@ Anomalie rilevate:
 - [ATTENZIONE] https://altadefinizionegratis.website — reindirizza verso altadefinizionegratis.press (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
-- [ATTENZIONE] https://cb01uno.quest — reindirizza verso cb01uno.fun (errori consecutivi: 0)
-- [ATTENZIONE] https://cb01uno.space — reindirizza verso cb01uno.fun (errori consecutivi: 0)
-- [ATTENZIONE] https://cineblog001.work — reindirizza verso cineblog001.pw (errori consecutivi: 0)
-- [ATTENZIONE] https://eurostreamings.monster — reindirizza verso eurostreamings.skin (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.quest — reindirizza verso cb01uno.site (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.space — reindirizza verso cb01uno.site (errori consecutivi: 0)
+- [ATTENZIONE] https://cineblog001.work — reindirizza verso cineblog001.trade (errori consecutivi: 0)
+- [ATTENZIONE] https://eurostreamings.monster — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.store — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.courses — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://il-geniodellostreaming.digital — reindirizza verso il-geniodellostreaming.yachts (errori consecutivi: 0)
+- [ATTENZIONE] https://il-geniodellostreaming.digital — reindirizza verso il-geniodellostreaming.live (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.pizza — reindirizza verso streamingcommunityz.plus (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.pl — reindirizza verso streamingcommunityz.plus (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.pizza — reindirizza verso streamingcommunityz.report (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.pl — reindirizza verso streamingcommunityz.report (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 1
