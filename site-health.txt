@@ -1,8 +1,8 @@
-Controllo UTC: 2026-07-17T05:56:27.803871+00:00
-Siti controllati: 21
+Controllo UTC: 2026-07-18T05:36:46.850184+00:00
+Siti controllati: 22
 Siti saltati perché in blacklist manuale: 6
 OK: 14
-Attenzione: 7
+Attenzione: 8
 Errori: 0
 Domini auto-esclusi: 0
 Soglia auto-esclusione: 2 errori tecnici consecutivi
@@ -13,7 +13,8 @@ Anomalie rilevate:
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.surf — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.store — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://guardoserie.courses — protezione anti-bot (errori consecutivi: 0)
+- [ATTENZIONE] https://guardoserie.study — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.pl — reindirizza verso streamingcommunityz.report (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.pl — reindirizza verso streamingcommunityz.red (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.report — reindirizza verso streamingcommunityz.red (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 1
