@@ -1,19 +1,17 @@
-Aggiornamento UTC: 2026-07-22T06:06:26.918641+00:00
+Aggiornamento UTC: 2026-07-23T06:10:32.872829+00:00
 Sorgenti configurate: 4
-Sorgenti riuscite: 3
-Sorgenti non raggiungibili: 1
+Sorgenti riuscite: 4
+Sorgenti non raggiungibili: 0
 Domini configurati in blacklist: 11
 Domini configurati in auto-esclusione: 0
-Voci escluse dalla blacklist: 5
+Voci escluse dalla blacklist: 6
 Voci escluse automaticamente: 0
-Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, guardaserietv.study, i5hs.k9vo.com, rargb.to
-Siti unici: 24
+Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, guardaserietv.study, i5hs.k9vo.com, rargb.to, streamingita.homes
+Siti unici: 23
 Ordinamento: alfabetico per dominio
-Protezione con lista precedente: sì
-Errori temporanei:
-- https://r.jina.ai/http://www.epgitalia.tv/wp-content/uploads/lista_domini.txt — sorgente non raggiungibile dopo 3 tentativi: HTTP Error 422: Unprocessable Entity
-Siti sottoposti a controllo tecnico: 24
-Siti saltati perché in blacklist manuale: 5
+Protezione con lista precedente: no
+Siti sottoposti a controllo tecnico: 23
+Siti saltati perché in blacklist manuale: 6
 Avvisi tecnici: 10
 Errori tecnici: 0
 Domini auto-esclusi: 0
