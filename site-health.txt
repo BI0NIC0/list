@@ -1,8 +1,8 @@
-Controllo UTC: 2026-07-23T06:10:34.341473+00:00
-Siti controllati: 23
+Controllo UTC: 2026-07-24T06:05:15.946297+00:00
+Siti controllati: 25
 Siti saltati perché in blacklist manuale: 6
-OK: 13
-Attenzione: 10
+OK: 14
+Attenzione: 11
 Errori: 0
 Domini auto-esclusi: 0
 Soglia auto-esclusione: 2 errori tecnici consecutivi
@@ -12,11 +12,12 @@ Anomalie rilevate:
 - [ATTENZIONE] https://altadefinizionegratis.cv — reindirizza verso altadefinizionegratis.motorcycles (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
-- [ATTENZIONE] https://cineblog001.reisen — reindirizza verso cineblog001.xyz (errori consecutivi: 0)
+- [ATTENZIONE] https://casa-cinema.bond — reindirizza verso casa-cinema.surf (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.xyz — reindirizza verso cb01uno.skin (errori consecutivi: 0)
+- [ATTENZIONE] https://eurostreamings.study — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.surf — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.store — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.study — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://il-geniodellostreaming.top — reindirizza verso il-geniodellostreaming.cfd (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://streamingcommunityz.run — reindirizza verso streamingcommunityz.sale (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 1
