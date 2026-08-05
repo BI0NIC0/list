@@ -1,4 +1,4 @@
-Aggiornamento UTC: 2026-08-04T06:05:15.542040+00:00
+Aggiornamento UTC: 2026-08-05T06:01:53.215068+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
@@ -12,7 +12,7 @@ Ordinamento: alfabetico per dominio
 Protezione con lista precedente: no
 Siti sottoposti a controllo tecnico: 25
 Siti saltati perché in blacklist manuale: 5
-Avvisi tecnici: 13
+Avvisi tecnici: 12
 Errori tecnici: 0
 Domini auto-esclusi: 0
 Rapporto tecnico: site-health.txt
