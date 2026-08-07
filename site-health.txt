@@ -1,17 +1,14 @@
-Controllo UTC: 2026-08-06T06:05:24.527386+00:00
+Controllo UTC: 2026-08-07T05:02:58.594272+00:00
 Siti controllati: 27
 Siti saltati perché in blacklist manuale: 5
 OK: 12
-Attenzione: 12
-Errori: 3
+Attenzione: 15
+Errori: 0
 Domini auto-esclusi: 0
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://streamingcommunityz.recipes — timeout oltre 12 secondi (errori consecutivi: 1)
-- [ERRORE] https://streamingcommunityz.team — timeout oltre 12 secondi (errori consecutivi: 1)
-- [ERRORE] https://streamingunity.cc — timeout oltre 12 secondi (errori consecutivi: 1)
 - [ATTENZIONE] https://altadefinizionegratis.co — reindirizza verso altadefinizionegratis.reisen (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
@@ -20,8 +17,11 @@ Anomalie rilevate:
 - [ATTENZIONE] https://eurostreamings.pw — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.uno — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.online — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://guardaserie.you — reindirizza verso guardaserietv.yachts (errori consecutivi: 0)
+- [ATTENZIONE] https://guardaserie.you — reindirizza verso guardaserietv.courses (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.study — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://il-geniodellostreaming.xyz — reindirizza verso il-geniodellostreaming.date (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.recipes — reindirizza verso streamingcommunityz.systems (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.team — reindirizza verso streamingcommunityz.systems (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingunity.cc — reindirizza verso streamingunity.vip (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 1
