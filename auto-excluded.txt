@@ -2,3 +2,4 @@
 # Un dominio entra dopo 2 errori tecnici consecutivi.
 # Lo stato resta memorizzato durante assenze temporanee dalle sorgenti.
 
+cb01uno.webiste
