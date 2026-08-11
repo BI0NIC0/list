@@ -1,22 +1,24 @@
-Controllo UTC: 2026-08-10T04:55:15.779852+00:00
-Siti controllati: 24
+Controllo UTC: 2026-08-11T04:41:07.879684+00:00
+Siti controllati: 26
 Siti saltati perché in blacklist manuale: 5
 OK: 14
-Attenzione: 9
+Attenzione: 11
 Errori: 1
 Domini auto-esclusi: 1
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://cb01uno.webiste — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 2)
+- [ERRORE] https://cb01uno.webiste — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 3)
+- [ATTENZIONE] https://altadefinizionegratis.download — reindirizza verso altadefinizionegratis.kaufen (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
-- [ATTENZIONE] https://cineblog001.motorcycles — reindirizza verso cineblog001.monster (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.website — reindirizza verso cb01uno.online (errori consecutivi: 0)
+- [ATTENZIONE] https://cineblog001.monster — reindirizza verso cineblog001.host (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.pw — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.online — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.study — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://il-geniodellostreaming.xyz — reindirizza verso il-geniodellostreaming.co (errori consecutivi: 0)
+- [ATTENZIONE] https://il-geniodellostreaming.co — reindirizza verso il-geniodellostreaming.courses (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.recipes — reindirizza verso streamingcommunityz.tools (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.tools — reindirizza verso streamingcommunityz.jetzt (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 2
