@@ -1,4 +1,4 @@
-Controllo UTC: 2026-08-11T04:41:07.879684+00:00
+Controllo UTC: 2026-08-12T05:03:47.578249+00:00
 Siti controllati: 26
 Siti saltati perché in blacklist manuale: 5
 OK: 14
@@ -9,7 +9,7 @@ Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://cb01uno.webiste — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 3)
+- [ERRORE] https://cb01uno.webiste — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 4)
 - [ATTENZIONE] https://altadefinizionegratis.download — reindirizza verso altadefinizionegratis.kaufen (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
