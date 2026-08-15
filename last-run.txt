@@ -1,21 +1,22 @@
-Aggiornamento UTC: 2026-08-14T05:04:54.929270+00:00
+Aggiornamento UTC: 2026-08-15T03:56:02.807983+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 3
 Sorgenti non raggiungibili: 1
 Domini configurati in blacklist: 11
-Domini configurati in auto-esclusione: 1
+Domini configurati in auto-esclusione: 2
 Voci escluse dalla blacklist: 4
-Voci escluse automaticamente: 0
+Voci escluse automaticamente: 1
 Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, i5hs.k9vo.com, rargb.to
-Siti unici: 24
+Domini esclusi automaticamente: icv-api.vercel.app
+Siti unici: 23
 Ordinamento: alfabetico per dominio
 Protezione con lista precedente: sì
 Errori temporanei:
 - https://r.jina.ai/http://www.epgitalia.tv/wp-content/uploads/lista_domini.txt — sorgente non raggiungibile dopo 3 tentativi: HTTP Error 422: Unprocessable Entity
 Siti sottoposti a controllo tecnico: 24
 Siti saltati perché in blacklist manuale: 4
-Avvisi tecnici: 9
+Avvisi tecnici: 12
 Errori tecnici: 1
-Domini auto-esclusi: 0
+Domini auto-esclusi: 1
 Rapporto tecnico: site-health.txt
 Stati tecnici preservati fuori dalle sorgenti: 3
