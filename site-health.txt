@@ -1,22 +1,21 @@
-Controllo UTC: 2026-08-26T04:03:57.127906+00:00
-Siti controllati: 25
+Controllo UTC: 2026-08-27T14:14:15.240442+00:00
+Siti controllati: 24
 Siti saltati perché in blacklist manuale: 5
 OK: 15
-Attenzione: 9
+Attenzione: 8
 Errori: 1
 Domini auto-esclusi: 1
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 13)
-- [ATTENZIONE] https://altadefinizione-gratis.sbs — reindirizza verso altadefinizionex.cc (errori consecutivi: 0)
+- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 14)
+- [ATTENZIONE] https://altadefinizionex.cc — reindirizza verso altadefinizionex.best (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
-- [ATTENZIONE] https://cb01uno.monster — reindirizza verso cb01uno.blog (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.biz — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.online — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.study — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.luxe — reindirizza verso streamingcommunityz.review (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.review — reindirizza verso streamingcommunityz.studio (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 3
