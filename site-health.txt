@@ -1,4 +1,4 @@
-Controllo UTC: 2026-08-28T15:24:45.725792+00:00
+Controllo UTC: 2026-08-29T10:07:20.798489+00:00
 Siti controllati: 26
 Siti saltati perché in blacklist manuale: 5
 OK: 14
@@ -9,7 +9,7 @@ Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 15)
+- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 16)
 - [ATTENZIONE] https://altadefinizionex.cc — reindirizza verso altadefinizionex.live (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
