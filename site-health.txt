@@ -1,17 +1,18 @@
-Controllo UTC: 2026-09-02T07:56:01.687284+00:00
-Siti controllati: 23
+Controllo UTC: 2026-09-03T08:04:47.276214+00:00
+Siti controllati: 24
 Siti saltati perché in blacklist manuale: 5
 OK: 14
-Attenzione: 8
+Attenzione: 9
 Errori: 1
 Domini auto-esclusi: 1
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 20)
+- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 21)
 - [ATTENZIONE] https://www.animesaturn.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.lat — reindirizza verso cb01uno.baby (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.my — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.online — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaserietv.courses — reindirizza verso guardaseriex.sbs (errori consecutivi: 0)
