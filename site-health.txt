@@ -1,20 +1,23 @@
-Controllo UTC: 2026-09-22T08:34:27.420311+00:00
-Siti controllati: 23
+Controllo UTC: 2026-09-23T08:37:00.547753+00:00
+Siti controllati: 24
 Siti saltati perché in blacklist manuale: 5
-OK: 15
+OK: 13
 Attenzione: 7
-Errori: 1
+Errori: 4
 Domini auto-esclusi: 1
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 39)
+- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 40)
+- [ERRORE] https://streamingcommunityz.academy — timeout oltre 12 secondi (errori consecutivi: 1)
+- [ERRORE] https://streamingcommunityz.photos — timeout oltre 12 secondi (errori consecutivi: 1)
+- [ERRORE] https://streamingunity.win — timeout oltre 12 secondi (errori consecutivi: 1)
 - [ATTENZIONE] https://altadefinizione.fast — reindirizza verso altadefinizionex.live (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01uno.cyou — reindirizza verso cb01uno.top (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.info — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaseriex.cyou — reindirizza verso guardaseriex.pics (errori consecutivi: 0)
 - [ATTENZIONE] https://guardoserie.rent — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.academy — reindirizza verso streamingcommunityz.photos (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 2
