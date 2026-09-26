@@ -1,22 +1,22 @@
-Controllo UTC: 2026-09-25T08:51:09.703385+00:00
+Controllo UTC: 2026-09-26T08:37:30.381732+00:00
 Siti controllati: 24
 Siti saltati perché in blacklist manuale: 5
 OK: 14
-Attenzione: 9
-Errori: 1
+Attenzione: 8
+Errori: 2
 Domini auto-esclusi: 1
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 42)
+- [ERRORE] https://guardoserie.rent — errore DNS: [Errno -5] No address associated with hostname (errori consecutivi: 1)
+- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 43)
 - [ATTENZIONE] https://altadefinizione.fast — reindirizza verso altadefinizionex.live (errori consecutivi: 0)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01uno.cyou — reindirizza verso cb01uno.top (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.courses — reindirizza verso eurostreamings.live (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.info — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaseriex.cyou — reindirizza verso guardaseriex.pics (errori consecutivi: 0)
-- [ATTENZIONE] https://guardoserie.rent — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://streamingcommunityz.academy — reindirizza verso streamingcommunityz.photos (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 2

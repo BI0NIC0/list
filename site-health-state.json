@@ -1,145 +1,145 @@
 {
   "altadefinizione.fast": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "reindirizza verso altadefinizionex.live",
     "last_level": "ATTENZIONE"
   },
   "altadefinizionex.live": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "animesaturn.net": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "animeunity.so": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 403",
     "last_level": "ATTENZIONE"
   },
   "animeworld.ac": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "casa-cinema.cfd": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "cb01uno.cyou": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "reindirizza verso cb01uno.top",
     "last_level": "ATTENZIONE"
   },
   "cb01uno.top": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "cineblog001.download": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "eurostreaming.design": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "eurostreamings.courses": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "reindirizza verso eurostreamings.live",
     "last_level": "ATTENZIONE"
   },
   "film-pertutti.best": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "filmsenzalimiti.study": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "guardaplay.info": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "protezione anti-bot",
     "last_level": "ATTENZIONE"
   },
   "guardaseriex.cyou": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "reindirizza verso guardaseriex.pics",
     "last_level": "ATTENZIONE"
   },
   "guardaseriex.pics": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "guardoserie.rent": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
-    "last_detail": "protezione anti-bot",
-    "last_level": "ATTENZIONE"
+    "consecutive_errors": 1,
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
+    "last_detail": "errore DNS: [Errno -5] No address associated with hostname",
+    "last_level": "ERRORE"
   },
   "icv-api.vercel.app": {
-    "consecutive_errors": 42,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "consecutive_errors": 43,
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 404",
     "last_level": "ERRORE"
   },
   "il-geniodellostreaming.casa": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "piratestreaminghd.net": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "protezione anti-bot",
     "last_level": "ATTENZIONE"
   },
   "streamingcommunityz.academy": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "reindirizza verso streamingcommunityz.photos",
     "last_level": "ATTENZIONE"
   },
   "streamingcommunityz.photos": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "streamingunity.win": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "tantifilm.be": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-09-25T08:51:09.703385+00:00",
+    "last_checked_utc": "2026-09-26T08:37:30.381732+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
