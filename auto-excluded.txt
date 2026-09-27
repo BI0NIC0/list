@@ -3,4 +3,5 @@
 # Lo stato resta memorizzato durante assenze temporanee dalle sorgenti.
 
 cb01uno.webiste
+guardoserie.rent
 icv-api.vercel.app
