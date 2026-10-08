@@ -1,22 +1,17 @@
-Controllo UTC: 2026-10-07T10:18:16.429152+00:00
-Siti controllati: 26
+Controllo UTC: 2026-10-08T10:37:50.041034+00:00
+Siti controllati: 21
 Siti saltati perché in blacklist manuale: 5
 OK: 16
-Attenzione: 8
+Attenzione: 3
 Errori: 2
 Domini auto-esclusi: 2
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 12)
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 54)
-- [ATTENZIONE] https://altadefinizione.fast — reindirizza verso altadefinizionex.surf (errori consecutivi: 0)
+- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 13)
+- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 55)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
-- [ATTENZIONE] https://cb01uno.club — reindirizza verso cb01uno.wiki (errori consecutivi: 0)
-- [ATTENZIONE] https://eurostreamings.live — reindirizza verso eurostreamings.yachts (errori consecutivi: 0)
-- [ATTENZIONE] https://guardaseriex.cyou — reindirizza verso guardaseriex.click (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.academy — reindirizza verso streamingcommunityz.rip (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.promo — protezione anti-bot (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.promo — reindirizza verso streamingcommunityz.rip (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 2

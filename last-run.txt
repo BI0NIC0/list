@@ -1,4 +1,4 @@
-Aggiornamento UTC: 2026-10-07T10:18:03.074324+00:00
+Aggiornamento UTC: 2026-10-08T10:37:36.729362+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
@@ -8,12 +8,12 @@ Voci escluse dalla blacklist: 5
 Voci escluse automaticamente: 2
 Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, i5hs.k9vo.com, rargb.to, streamingita.homes
 Domini esclusi automaticamente: guardoserie.rent, icv-api.vercel.app
-Siti unici: 24
+Siti unici: 19
 Ordinamento: alfabetico per dominio
 Protezione con lista precedente: no
-Siti sottoposti a controllo tecnico: 26
+Siti sottoposti a controllo tecnico: 21
 Siti saltati perché in blacklist manuale: 5
-Avvisi tecnici: 8
+Avvisi tecnici: 3
 Errori tecnici: 2
 Domini auto-esclusi: 2
 Rapporto tecnico: site-health.txt
