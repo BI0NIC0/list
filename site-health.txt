@@ -1,18 +1,19 @@
-Controllo UTC: 2026-10-11T10:02:33.687303+00:00
-Siti controllati: 22
+Controllo UTC: 2026-10-12T10:54:08.024078+00:00
+Siti controllati: 23
 Siti saltati perché in blacklist manuale: 5
 OK: 16
-Attenzione: 4
+Attenzione: 5
 Errori: 2
 Domini auto-esclusi: 2
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 16)
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 58)
+- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 17)
+- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 59)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://casa-cinema.cfd — reindirizza verso casa-cinema.boats (errori consecutivi: 0)
+- [ATTENZIONE] https://guardaplay.info — reindirizza verso guardaplay.cam (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://streamingcommunityz.promo — reindirizza verso streamingcommunityz.rip (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 2
