@@ -1,4 +1,4 @@
-Controllo UTC: 2026-10-16T08:13:01.772701+00:00
+Controllo UTC: 2026-10-17T07:49:59.802943+00:00
 Siti controllati: 22
 Siti saltati perché in blacklist manuale: 5
 OK: 15
@@ -9,8 +9,8 @@ Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 21)
-- [ERRORE] https://icv-api.vercel.app — HTTP 404 (errori consecutivi: 63)
+- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 22)
+- [ERRORE] https://icv-api.vercel.app — HTTP 500 (errori consecutivi: 64)
 - [ATTENZIONE] https://www.animeunity.so — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.yachts — reindirizza verso eurostreamings.icu (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaseriex.click — reindirizza verso guardaseriex.wiki (errori consecutivi: 0)
