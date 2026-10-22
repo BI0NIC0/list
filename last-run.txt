@@ -1,20 +1,20 @@
-Aggiornamento UTC: 2026-10-21T08:36:18.907930+00:00
+Aggiornamento UTC: 2026-10-22T08:38:32.683400+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
 Domini configurati in blacklist: 11
 Domini configurati in auto-esclusione: 4
-Voci escluse dalla blacklist: 5
-Voci escluse automaticamente: 3
-Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, i5hs.k9vo.com, rargb.to, streamingita.homes
-Domini esclusi automaticamente: animeunity.so, guardoserie.rent, icv-api.vercel.app
-Siti unici: 20
+Voci escluse dalla blacklist: 4
+Voci escluse automaticamente: 2
+Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, i5hs.k9vo.com, rargb.to
+Domini esclusi automaticamente: animeunity.so, icv-api.vercel.app
+Siti unici: 15
 Ordinamento: alfabetico per dominio
 Protezione con lista precedente: no
-Siti sottoposti a controllo tecnico: 23
-Siti saltati perché in blacklist manuale: 5
-Avvisi tecnici: 5
-Errori tecnici: 3
-Domini auto-esclusi: 3
+Siti sottoposti a controllo tecnico: 17
+Siti saltati perché in blacklist manuale: 4
+Avvisi tecnici: 6
+Errori tecnici: 2
+Domini auto-esclusi: 2
 Rapporto tecnico: site-health.txt
-Stati tecnici preservati fuori dalle sorgenti: 2
+Stati tecnici preservati fuori dalle sorgenti: 3
