@@ -5,4 +5,3 @@
 animeunity.so
 cb01uno.webiste
 guardoserie.rent
-icv-api.vercel.app
