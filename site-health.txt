@@ -1,25 +1,23 @@
-Controllo UTC: 2026-10-27T09:02:21.183604+00:00
-Siti controllati: 28
+Controllo UTC: 2026-10-28T09:42:18.475773+00:00
+Siti controllati: 25
 Siti saltati perché in blacklist manuale: 5
-OK: 15
-Attenzione: 11
+OK: 14
+Attenzione: 9
 Errori: 2
 Domini auto-esclusi: 2
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 8)
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 31)
+- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 9)
+- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 32)
 - [ATTENZIONE] https://altadefinizionex.forum — reindirizza verso altadefinizionex.vip (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01one.com — reindirizza verso cb01one.stream (errori consecutivi: 0)
-- [ATTENZIONE] https://cb01uno.vip — reindirizza verso cb01one.stream (errori consecutivi: 0)
 - [ATTENZIONE] https://cineblog001.loan — reindirizza verso cineblog001.men (errori consecutivi: 0)
-- [ATTENZIONE] https://eurostreamings.icu — reindirizza verso eurostreamings.tattoo (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaplay.cam — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaseriex.icu — reindirizza verso guardaseriex.best (errori consecutivi: 0)
 - [ATTENZIONE] https://icv-api.vercel.app — HTTP 402 (errori consecutivi: 0)
 - [ATTENZIONE] https://il-geniodellostreaming.garden — reindirizza verso il-geniodellostreaming.ink (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.build — reindirizza verso streamingcommunityz.day (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.llc — reindirizza verso streamingcommunityz.day (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 2
