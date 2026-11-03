@@ -1,19 +1,25 @@
-Controllo UTC: 2026-11-02T11:12:34.793944+00:00
-Siti controllati: 24
+Controllo UTC: 2026-11-03T10:55:12.345089+00:00
+Siti controllati: 28
 Siti saltati perché in blacklist manuale: 4
-OK: 17
-Attenzione: 5
+OK: 15
+Attenzione: 11
 Errori: 2
 Domini auto-esclusi: 2
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 14)
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 37)
-- [ATTENZIONE] https://altadefinizionex.forum — reindirizza verso altadefinizionex.vip (errori consecutivi: 0)
-- [ATTENZIONE] https://guardaseriex.icu — reindirizza verso guardaseriex.best (errori consecutivi: 0)
+- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 15)
+- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 38)
+- [ATTENZIONE] https://altadefinizionex.forum — reindirizza verso altadefinizionex.bar (errori consecutivi: 0)
+- [ATTENZIONE] https://casa-cinema.boats — reindirizza verso casa-cinema.top (errori consecutivi: 0)
+- [ATTENZIONE] https://cb01one.stream — reindirizza verso cb01one.org (errori consecutivi: 0)
+- [ATTENZIONE] https://cineblog001.men — reindirizza verso cineblog001.party (errori consecutivi: 0)
+- [ATTENZIONE] https://guardaseriex.best — reindirizza verso guardaseriex.art (errori consecutivi: 0)
+- [ATTENZIONE] https://guardaseriex.icu — reindirizza verso guardaseriex.art (errori consecutivi: 0)
 - [ATTENZIONE] https://icv-api.vercel.app — HTTP 402 (errori consecutivi: 0)
+- [ATTENZIONE] https://il-geniodellostreaming.ink — reindirizza verso il-geniodellostreaming.rest (errori consecutivi: 0)
 - [ATTENZIONE] https://piratestreaminghd.net — protezione anti-bot (errori consecutivi: 0)
-- [ATTENZIONE] https://streamingcommunityz.llc — reindirizza verso streamingcommunityz.day (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.day — reindirizza verso streamingcommunityz.boo (errori consecutivi: 0)
+- [ATTENZIONE] https://streamingcommunityz.llc — reindirizza verso streamingcommunityz.boo (errori consecutivi: 0)
 Stati tecnici preservati fuori dalle sorgenti: 2
