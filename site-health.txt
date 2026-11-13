@@ -1,22 +1,20 @@
-Controllo UTC: 2026-11-12T11:16:34.820798+00:00
-Siti controllati: 27
+Controllo UTC: 2026-11-13T11:01:33.707611+00:00
+Siti controllati: 20
 Siti saltati perché in blacklist manuale: 4
-OK: 17
-Attenzione: 8
-Errori: 2
-Domini auto-esclusi: 2
+OK: 12
+Attenzione: 7
+Errori: 1
+Domini auto-esclusi: 1
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 24)
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 47)
+- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 25)
 - [ATTENZIONE] https://altadefinizionex.forum — reindirizza verso altadefinizionex.fit (errori consecutivi: 0)
-- [ATTENZIONE] https://www.animeunity.co — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://cineblog001.party — reindirizza verso cineblog001.tires (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostream.one — reindirizza verso eurostream.hair (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostreamings.blog — reindirizza verso eurostreamings.cv (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaseriex.icu — reindirizza verso guardaseriex.work (errori consecutivi: 0)
 - [ATTENZIONE] https://icv-api.vercel.app — HTTP 402 (errori consecutivi: 0)
 - [ATTENZIONE] https://streamingcommunityz.day — reindirizza verso streamingcommunityz.nexus (errori consecutivi: 0)
-Stati tecnici preservati fuori dalle sorgenti: 2
+Stati tecnici preservati fuori dalle sorgenti: 3

@@ -1,20 +1,20 @@
-Aggiornamento UTC: 2026-11-12T11:16:21.379058+00:00
+Aggiornamento UTC: 2026-11-13T11:01:31.178930+00:00
 Sorgenti configurate: 4
 Sorgenti riuscite: 4
 Sorgenti non raggiungibili: 0
 Domini configurati in blacklist: 11
 Domini configurati in auto-esclusione: 3
 Voci escluse dalla blacklist: 4
-Voci escluse automaticamente: 2
+Voci escluse automaticamente: 1
 Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, i5hs.k9vo.com, rargb.to
-Domini esclusi automaticamente: animeunity.so, guardoserie.rent
-Siti unici: 25
+Domini esclusi automaticamente: animeunity.so
+Siti unici: 19
 Ordinamento: alfabetico per dominio
 Protezione con lista precedente: no
-Siti sottoposti a controllo tecnico: 27
+Siti sottoposti a controllo tecnico: 20
 Siti saltati perché in blacklist manuale: 4
-Avvisi tecnici: 8
-Errori tecnici: 2
-Domini auto-esclusi: 2
+Avvisi tecnici: 7
+Errori tecnici: 1
+Domini auto-esclusi: 1
 Rapporto tecnico: site-health.txt
-Stati tecnici preservati fuori dalle sorgenti: 2
+Stati tecnici preservati fuori dalle sorgenti: 3
