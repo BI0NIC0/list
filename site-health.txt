@@ -1,22 +1,23 @@
-Controllo UTC: 2026-11-18T11:45:35.965687+00:00
+Controllo UTC: 2026-11-19T11:43:24.534290+00:00
 Siti controllati: 28
 Siti saltati perché in blacklist manuale: 4
-OK: 16
-Attenzione: 10
+OK: 15
+Attenzione: 11
 Errori: 2
 Domini auto-esclusi: 2
 Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 30)
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 52)
+- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 31)
+- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 53)
 - [ATTENZIONE] https://altadefinizionex.forum — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://altadefinizionex.ink — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://animeunity.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01one.uno — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01one.watch — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://eurostream.hair — reindirizza verso eurostream.skin (errori consecutivi: 0)
+- [ATTENZIONE] https://eurostreamings.cv — reindirizza verso eurostreamings.cyou (errori consecutivi: 0)
 - [ATTENZIONE] https://guardaseriex.icu — reindirizza verso guardaseriex.lol (errori consecutivi: 0)
 - [ATTENZIONE] https://icv-api.vercel.app — HTTP 402 (errori consecutivi: 0)
 - [ATTENZIONE] https://streamingcommunityz.day — reindirizza verso streamingcommunityz.dad (errori consecutivi: 0)
