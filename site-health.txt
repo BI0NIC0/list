@@ -1,4 +1,4 @@
-Controllo UTC: 2026-11-21T11:06:47.985424+00:00
+Controllo UTC: 2026-11-22T11:28:30.890955+00:00
 Siti controllati: 27
 Siti saltati perché in blacklist manuale: 4
 OK: 17
@@ -9,8 +9,8 @@ Soglia auto-esclusione: 2 errori tecnici consecutivi
 Nota: il risultato dipende dalla rete del runner GitHub e può differire da quello visibile in Italia.
 
 Anomalie rilevate:
-- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 33)
-- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 54)
+- [ERRORE] https://www.animeunity.so — errore DNS: [Errno -2] Name or service not known (errori consecutivi: 34)
+- [ERRORE] https://guardoserie.rent — timeout oltre 12 secondi (errori consecutivi: 55)
 - [ATTENZIONE] https://altadefinizionex.ink — protezione anti-bot (errori consecutivi: 0)
 - [ATTENZIONE] https://animeunity.cx — HTTP 403 (errori consecutivi: 0)
 - [ATTENZIONE] https://cb01one.live — protezione anti-bot (errori consecutivi: 0)
