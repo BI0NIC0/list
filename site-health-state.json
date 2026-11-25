@@ -1,171 +1,130 @@
 {
   "altadefinizionex.ink": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "protezione anti-bot",
-    "last_level": "ATTENZIONE"
-  },
-  "altadefinizionex.stream": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "protezione anti-bot",
     "last_level": "ATTENZIONE"
   },
   "animesaturn.net": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
-  "animeunity.cx": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "HTTP 403",
-    "last_level": "ATTENZIONE"
-  },
   "animeunity.so": {
-    "consecutive_errors": 36,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "consecutive_errors": 37,
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "timeout oltre 12 secondi",
     "last_level": "ERRORE"
   },
   "animeworld.ac": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "casa-cinema.xyz": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "cb01one.download": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "protezione anti-bot",
-    "last_level": "ATTENZIONE"
-  },
-  "cb01one.live": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "protezione anti-bot",
     "last_level": "ATTENZIONE"
   },
   "cineblog001.cafe": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "eurostream.skin": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "HTTP 200",
-    "last_level": "OK"
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
+    "last_detail": "reindirizza verso eurostream.homes",
+    "last_level": "ATTENZIONE"
   },
   "eurostreaming.design": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 301",
     "last_level": "OK"
   },
   "eurostreamings.cyou": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "HTTP 200",
-    "last_level": "OK"
-  },
-  "film-pertutti.rest": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "HTTP 200",
-    "last_level": "OK"
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
+    "last_detail": "reindirizza verso eurostreamings.guru",
+    "last_level": "ATTENZIONE"
   },
   "filmsenzalimiti.study": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "guardaplay.autos": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "guardaseriex.help": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "guardaseriex.lol": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "reindirizza verso guardaseriex.help",
     "last_level": "ATTENZIONE"
   },
-  "guardoserie.rent": {
-    "consecutive_errors": 56,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "timeout oltre 12 secondi",
-    "last_level": "ERRORE"
-  },
   "icv-api.vercel.app": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 402",
     "last_level": "ATTENZIONE"
   },
   "il-geniodellostreaming.my": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "HTTP 200",
-    "last_level": "OK"
-  },
-  "qfind.net": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "streamingcommunityz.day": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "reindirizza verso streamingcommunityz.mov",
-    "last_level": "ATTENZIONE"
-  },
-  "streamingcommunityz.llc": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "reindirizza verso streamingcommunityz.mov",
     "last_level": "ATTENZIONE"
   },
   "streamingcommunityz.mov": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "streamingunity.day": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
-    "last_detail": "HTTP 200",
-    "last_level": "OK"
-  },
-  "tantifilm.be": {
-    "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
   },
   "toastflix.stremio-italia.eu": {
     "consecutive_errors": 0,
-    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_checked_utc": "2026-11-25T12:58:49.966017+00:00",
     "last_detail": "HTTP 200",
     "last_level": "OK"
+  },
+  "guardoserie.rent": {
+    "consecutive_errors": 56,
+    "last_checked_utc": "2026-11-24T13:46:26.968278+00:00",
+    "last_detail": "timeout oltre 12 secondi",
+    "last_level": "ERRORE",
+    "present_in_candidates": false
   },
   "cb01uno.webiste": {
     "consecutive_errors": 4,
