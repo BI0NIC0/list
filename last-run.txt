@@ -1,20 +1,22 @@
-Aggiornamento UTC: 2026-11-27T12:25:29.492640+00:00
+Aggiornamento UTC: 2026-11-28T11:50:11.304774+00:00
 Sorgenti configurate: 4
-Sorgenti riuscite: 4
-Sorgenti non raggiungibili: 0
+Sorgenti riuscite: 3
+Sorgenti non raggiungibili: 1
 Domini configurati in blacklist: 11
 Domini configurati in auto-esclusione: 3
 Voci escluse dalla blacklist: 4
-Voci escluse automaticamente: 2
+Voci escluse automaticamente: 1
 Domini esclusi dalla blacklist: 1337x.to, guarda-serie.ovh, i5hs.k9vo.com, rargb.to
-Domini esclusi automaticamente: animeunity.so, guardoserie.rent
-Siti unici: 27
+Domini esclusi automaticamente: animeunity.so
+Siti unici: 29
 Ordinamento: alfabetico per dominio
-Protezione con lista precedente: no
-Siti sottoposti a controllo tecnico: 29
+Protezione con lista precedente: sì
+Errori temporanei:
+- https://r.jina.ai/http://www.epgitalia.tv/wp-content/uploads/lista_domini.txt — sorgente non raggiungibile dopo 3 tentativi: HTTP Error 401: Unauthorized
+Siti sottoposti a controllo tecnico: 30
 Siti saltati perché in blacklist manuale: 4
-Avvisi tecnici: 8
-Errori tecnici: 5
-Domini auto-esclusi: 2
+Avvisi tecnici: 14
+Errori tecnici: 1
+Domini auto-esclusi: 1
 Rapporto tecnico: site-health.txt
-Stati tecnici preservati fuori dalle sorgenti: 2
+Stati tecnici preservati fuori dalle sorgenti: 3
